@@ -1,0 +1,187 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat";
+    font-weight: 800;
+}
+
+/* Heading Section */
+
+.Big-Heading{
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.Section-Heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Background-text-color-Section */
+
+.colored-section{
+    background-color: #ff8181;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* Container Fluid */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Navigation bar */
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Title section */
+
+.title-img{
+    width: 70%;
+    height: 110%;
+    transform: rotate(20deg);
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Features section*/
+
+.features-image{
+    padding: 5%;
+}
+
+.feature-title{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.icon-img{
+    color: #ff8181;
+    margin-bottom: 1rem;
+}
+
+.icon-img:hover{
+    color: #ff4c68;
+}
+
+/* testimonials section*/
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image1{
+    width: 18%;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.testimonial-image2{
+    width: 18%;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+/* press section */
+
+#press{
+    padding-bottom: 3%;
+}
+
+.press-image{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+/* pricing section*/
+
+#pricing{
+    padding: 100px;
+}
+
+.meal-name{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.Price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-coloum{
+    padding: 3% 2%;
+}
+
+.Veg-meal{
+    width: 32%;
+    border-radius: 100%;
+}
+
+.Nonveg-meal{
+    width: 50%;
+    border-radius: 100%;
+}
+
+.Fastfood-meal{
+    width: 50%;
+    border-radius: 100%;
+}
+
+/* CTA SECTION */
+
+
+/* FOOTER SECTION */
+
+.com-icon{
+    padding: 20px 10px;
+}
+
+
+/* Responsive Section */
+
+@media (max-width: 991px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
+
+}
